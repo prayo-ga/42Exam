@@ -2,7 +2,7 @@
 
 void	ft_write_number(int number)
 {
-    char	str[10] = "0123456789";
+	char	str[10] = "0123456789";
 
 	if (number > 9)
 	{
@@ -11,7 +11,7 @@ void	ft_write_number(int number)
 	write (1, &str[number % 10], 1);
 }
 
-int	main()
+int	main(void)
 {
 	int	i;
 
